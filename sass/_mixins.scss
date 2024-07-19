@@ -1,0 +1,57 @@
+// Media query manager for DESKTOP FIRST
+
+@mixin for-screen-size($screen-size) {
+  @if ($screen-size==big-desktop) {
+    @media only screen and (min-width: 112.5em) {
+      @content;
+    }
+  }
+  @if ($screen-size==desktop) {
+    @media only screen and (max-width: 75em) {
+      @content;
+    }
+  }
+  @if ($screen-size==tablet-landscape) {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if ($screen-size==tablet-portrait) {
+    @media only screen and (max-width: 48em) {
+      @content;
+    }
+  }
+  @if ($screen-size==phone) {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    }
+  }
+}
+
+// Media query manager for MOBILE FIRST
+
+@mixin for-screen-size($screen-size) {
+  @if ($screen-size==tablet-portrait) {
+    @media only screen and (min-width: 48em) {
+      @content;
+    }
+  }
+
+  @if ($screen-size==tablet-landscape) {
+    @media only screen and (min-width: 56.25em) {
+      @content;
+    }
+  }
+
+  @if ($screen-size==desktop) {
+    @media only screen and (min-width: 75em) {
+      @content;
+    }
+  }
+
+  @if ($screen-size==big-desktop) {
+    @media only screen and (min-width: 112.5em) {
+      @content;
+    }
+  }
+}
