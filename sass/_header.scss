@@ -1,5 +1,5 @@
 .hero-section {
-  background-image: url('../img/hero.jpg');
+  background-image: url("../img/hero.jpg");
   background-size: cover;
   background-position: center;
   position: relative;
@@ -53,10 +53,9 @@
 }
 
 .hero {
-
   &__content {
     background-color: $clr-secondary;
-    padding: 4rem ;
+    padding: 4rem;
     border-top-right-radius: 2rem;
     border-top-left-radius: 2rem;
     width: 35%;
@@ -65,18 +64,22 @@
     left: 50%;
     transform: translate(18%, -1%);
 
+    svg {
+      fill: $clr-primary--1;
+    }
+    
     .btn {
       display: inline-flex;
       gap: 1rem;
     }
   }
 
-  &__text-primary{
+  &__text-primary {
     color: $clr-primary--2;
     font-size: $fs-18;
   }
 
-  &__text-secondary{
+  &__text-secondary {
     color: $clr-primary--2;
     font-size: $fs-24;
     font-weight: $fw-600;
