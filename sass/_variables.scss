@@ -3,7 +3,7 @@
 
 // FONT FAMILLY
 
-$ff-primary: "Playfair Display", serif;
+$ff-primary: "Lato", sans-serif;
 $ff-secondary: "Lato", sans-serif;
 
 // FONT SIZES
@@ -15,7 +15,7 @@ $fs-16: 1.6rem;
 $fs-18: 1.8rem;
 $fs-20: 2rem;
 $fs-24: 2.4rem;
-$fs-30: 3rem;
+$fs-32: 3.2rem;
 $fs-36: 3.6rem;
 $fs-44: 4.4rem;
 $fs-52: 5.2rem;
@@ -32,6 +32,7 @@ $fw-600: 600;
 $fw-700: 700;
 
 // LINE HEIGHT
+$lh-10: 1;
 $lh-11: 1.1;
 $lh-12: 1.2;
 $lh-16: 1.6;
@@ -42,12 +43,17 @@ $ls-20: 2rem;
 // COLORS
 
 // ### PRIMARY
-$clr-primary: #88ee;
-$clr-primary--1: #ff6635;
-$clr-primary--2: #dd4e11;
-$clr-secondary: #aaee;
-$clr-secondary--1: #ffaaff;
-$clr-secondary--2: #ffaa;
+
+$clr-primary: #46735a;
+$clr-primary--1: #dae3de;
+$clr-primary--2: #f1f5f3;
+$clr-primary--2: #bfc8cf;
+$clr-secondary: #3c373b;
+$clr-secondary--1: #e1c6b3;
+$clr-secondary--2: #ffeedd;
+$clr-secondary--3: #fffaf6;
+$clr-secondary--4: #4f4b4e;
+$clr-tertiary: #0e1d2c;
 
 // - 400: #FF6635
 // - 500: #DD4E11
