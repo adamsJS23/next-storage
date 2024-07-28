@@ -29,3 +29,27 @@ button {
   border: none;
   border-radius: none;
 }
+
+svg {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.btn {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  font-size: $fs-16;
+  font-weight: $fw-600;
+  text-transform: uppercase;
+  border-radius: 0.5rem;
+}
+
+.btn--green {
+  background-color: $clr-primary;
+  color: $clr-primary--1;
+}
+
+.btn--brown {
+  background-color: $clr-secondary;
+  color: $clr-secondary--2;
+}
