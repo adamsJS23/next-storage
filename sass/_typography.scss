@@ -1,5 +1,5 @@
 body {
-  $ff-secondary: "Lato", sans-serif;
+  font-family: $ff-primary;
   line-height: $lh-16;
   -webkit-font-smoothing: antialiased;
 }
@@ -16,25 +16,22 @@ p {
 }
 
 .heading-primary {
-  font-size: clamp($fs-30, 6.35vw, $fs-86);
+  // font-size: clamp($fs-32, 6.35vw, $fs-86);
+  font-size: $fs-62;
   letter-spacing: 2px;
   color: $clr-white;
-  line-height: $lh-12;
-  font-family: $ff-primary;
+  line-height: $lh-10;
   font-weight: 700;
-  color: black;
+  color: $clr-secondary--1;
 }
 
 .heading-secondary {
-  font-size: clamp($fs-30, 6.35vw, $fs-44);
-  color: $clr-primary--2;
-  font-family: $ff-primary;
+  font-size: clamp($fs-32, 6.35vw, $fs-44);
   font-weight: 700;
   line-height: $lh-12;
 }
 
 .heading-tertiary {
-  font-family: $ff-secondary;
   font-weight: $fw-700;
   font-size: $fs-24;
 }
